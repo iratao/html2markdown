@@ -13,9 +13,9 @@ A Node.js tool to download HTML from URLs and convert it to Markdown format.
 ## Installation
 
 ```bash
-npm install -g html2markdown
+npm install -g @lerypapa/html2markdown
 # or
-yarn global add html2markdown
+yarn global add @lerypapa/html2markdown
 ```
 
 ## Usage
@@ -44,7 +44,7 @@ The second command will save the output to the specified file (`output.md`).
 
 Basic usage (auto-generated filename):
 ```javascript
-const html2markdown = require('html2markdown');
+const html2markdown = require('@lerypapa/html2markdown');
 
 html2markdown('https://example.com')
     .then(markdown => {
